@@ -428,7 +428,7 @@ footer .cop {
 }
 
 .topnav {
-    display: none; 
+    display: none;
     overflow: hidden;
 }
 
@@ -446,7 +446,7 @@ footer .cop {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-     color: white;
+    color: white;
     background-color: #5094f2;
 }
 
@@ -457,6 +457,11 @@ footer .cop {
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 640px) {
+
+    .topnav {
+        display: block;
+    }
+    
   .topnav a {display: none;}
   .topnav a.icon {
     display: block;
